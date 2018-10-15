@@ -1,5 +1,10 @@
 package sampleCode.sorting.insertionsort;
 
+/**
+ * InsertionSortExample
+ * @author saurav
+ *
+ */
 public class InsertionSortExample 
 {
 	public static void main(String[] args) 
