@@ -22,6 +22,12 @@ public class BinarySearchExample
 		System.out.println(recursiveBinarySearch(intArray, 1));
 	}
 
+	/**
+	 * iterative Binary Search
+	 * @param input
+	 * @param value
+	 * @return
+	 */
 	public static int iterativeBinarySearch(int[] input, int value) 
 	{
 		int start = 0;
@@ -45,11 +51,25 @@ public class BinarySearchExample
 		return -1;
 	}
 
+	/**
+	 * recursive Binary Search
+	 * @param input
+	 * @param value
+	 * @return
+	 */
 	public static int recursiveBinarySearch(int[] input, int value) 
 	{
 		return recursiveBinarySearch(input, 0, input.length, value);
 	}
-
+	
+	/**
+	 * recursive Binary Search
+	 * @param input
+	 * @param start
+	 * @param end
+	 * @param value
+	 * @return
+	 */
 	public static int recursiveBinarySearch(int[] input, int start, int end, int value) 
 	{
 		if (start >= end) 
