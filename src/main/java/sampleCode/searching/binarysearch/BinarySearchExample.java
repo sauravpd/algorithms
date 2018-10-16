@@ -1,5 +1,10 @@
 package sampleCode.searching.binarysearch;
 
+/**
+ * BinarySearchExample
+ * @author saurav
+ *
+ */
 public class BinarySearchExample 
 {
 	public static void main(String[] args) {
