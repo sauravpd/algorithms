@@ -76,7 +76,6 @@ public class BinarySearchExample
 		{
 			return -1;
 		}
-
 		int midpoint = (start + end) / 2;
 		System.out.println("midpoint = " + midpoint);
 
