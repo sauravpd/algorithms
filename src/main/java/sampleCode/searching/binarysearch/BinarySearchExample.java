@@ -7,7 +7,8 @@ package sampleCode.searching.binarysearch;
  */
 public class BinarySearchExample 
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		int[] intArray = { -22, -15, 1, 7, 20, 35, 55 };
 
 		System.out.println(iterativeBinarySearch(intArray, -15));
