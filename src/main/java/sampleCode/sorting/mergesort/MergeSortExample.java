@@ -1,5 +1,9 @@
 package sampleCode.sorting.mergesort;
-
+/**
+ * MergeSortExample
+ * @author saurav
+ *
+ */
 public class MergeSortExample 
 {
 	public static void main(String[] args) 
@@ -12,6 +16,12 @@ public class MergeSortExample
 		}
 	}
 
+	/**
+	 * mergeSort
+	 * @param input
+	 * @param start
+	 * @param end
+	 */
 	// { 20, 35, -15, 7, 55, 1, -22 }
 	public static void mergeSort(int[] input, int start, int end) 
 	{
@@ -25,6 +35,13 @@ public class MergeSortExample
 		merge(input, start, mid, end);
 	}
 
+	/**
+	 * merge
+	 * @param input
+	 * @param start
+	 * @param mid
+	 * @param end
+	 */
 	// { 20, 35, -15, 7, 55, 1, -22 }
 	public static void merge(int[] input, int start, int mid, int end) 
 	{
