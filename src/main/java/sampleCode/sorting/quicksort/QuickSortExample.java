@@ -1,5 +1,10 @@
 package sampleCode.sorting.quicksort;
 
+/**
+ * QuickSortExample
+ * @author saurav
+ *
+ */
 public class QuickSortExample 
 {
 	public static void main(String[] args) 
@@ -13,6 +18,12 @@ public class QuickSortExample
 		}
 	}
 
+	/**
+	 * quickSort
+	 * @param input
+	 * @param start
+	 * @param end
+	 */
 	public static void quickSort(int[] input, int start, int end) 
 	{
 		if (end - start < 2) 
@@ -28,6 +39,13 @@ public class QuickSortExample
 		quickSort(input, pivotIndex + 1, end);
 	}
 
+	/**
+	 * partition
+	 * @param input
+	 * @param start
+	 * @param end
+	 * @return
+	 */
 	public static int partition(int[] input, int start, int end) 
 	{
 		// This is using the first element as the pivot
