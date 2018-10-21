@@ -1,5 +1,10 @@
 package sampleCode.sorting.countingsort;
 
+/**
+ * CountingSortExample
+ * @author saurav
+ *
+ */
 public class CountingSortExample 
 {
 	public static void main(String[] args) 
@@ -13,6 +18,12 @@ public class CountingSortExample
 		}
 	}
 
+	/**
+	 * countingSort
+	 * @param input
+	 * @param min
+	 * @param max
+	 */
 	public static void countingSort(int[] input, int min, int max) 
 	{
 
