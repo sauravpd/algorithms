@@ -32,8 +32,10 @@ public class SelectionSortExample
 	 * @param i
 	 * @param j
 	 */
-	public static void swap(int[] array, int i, int j) {
-		if (i == j) {
+	public static void swap(int[] array, int i, int j) 
+	{
+		if (i == j) 
+		{
 			return;
 		}
 
