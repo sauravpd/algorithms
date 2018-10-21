@@ -1,5 +1,10 @@
 package sampleCode.sorting.selectionsort;
 
+/**
+ * SelectionSortExample
+ * @author saurav
+ *
+ */
 public class SelectionSortExample 
 {
 	public static void main(String[] args) 
@@ -20,7 +25,13 @@ public class SelectionSortExample
 			System.out.println(intArray[i]);
 		}
 	}
-
+	
+	/**
+	 * swap
+	 * @param array
+	 * @param i
+	 * @param j
+	 */
 	public static void swap(int[] array, int i, int j) {
 		if (i == j) {
 			return;
