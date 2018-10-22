@@ -1,5 +1,9 @@
 package sampleCode.sorting.recursion;
-
+/**
+ * RecursionExamlpe
+ * @author saurav
+ *
+ */
 public class RecursionExamlpe 
 {
 	public static void main(String[] args) 
@@ -8,6 +12,11 @@ public class RecursionExamlpe
 		System.out.println(recursiveFactorial(4));
 	}
 	
+	/**
+	 * recursiveFactorial
+	 * @param num
+	 * @return
+	 */
 	public static int recursiveFactorial(int num) 
 	{
 		if (num == 0)
@@ -17,6 +26,11 @@ public class RecursionExamlpe
 		return num * recursiveFactorial(num - 1);
 	}
 
+	/**
+	 * iterativeFactorial
+	 * @param num
+	 * @return
+	 */
 	public static int iterativeFactorial(int num) 
 	{
 		if (num == 0) 
