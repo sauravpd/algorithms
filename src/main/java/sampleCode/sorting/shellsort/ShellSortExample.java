@@ -1,5 +1,10 @@
 package sampleCode.sorting.shellsort;
 
+/**
+ * 
+ * @author saurav
+ *
+ */
 public class ShellSortExample 
 {
 	public static void main(String[] args) 
@@ -12,7 +17,8 @@ public class ShellSortExample
 				int newElement = intArray[i];
 				int j = i;
 
-				while (j >= gap && intArray[j - gap] > newElement) {
+				while (j >= gap && intArray[j - gap] > newElement)
+				{
 					intArray[j] = intArray[j - gap];
 					j -= gap;
 				}
