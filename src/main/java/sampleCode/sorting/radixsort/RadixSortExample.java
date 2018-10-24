@@ -1,5 +1,10 @@
 package sampleCode.sorting.radixsort;
 
+/**
+ * 
+ * @author saurav
+ *
+ */
 public class RadixSortExample 
 {
 	public static void main(String[] args) {
@@ -13,12 +18,24 @@ public class RadixSortExample
 		}
 	}
 
+	/**
+	 * radixSort
+	 * @param input
+	 * @param radix
+	 * @param width
+	 */
 	public static void radixSort(int[] input, int radix, int width) {
 		for (int i = 0; i < width; i++) {
 			radixSingleSort(input, i, radix);
 		}
 	}
 
+	/**
+	 * radixSingleSort
+	 * @param input
+	 * @param position
+	 * @param radix
+	 */
 	public static void radixSingleSort(int[] input, int position, int radix) {
 
 		int numItems = input.length;
@@ -45,6 +62,13 @@ public class RadixSortExample
 	}
 
 
+	/**
+	 * getDigit
+	 * @param position
+	 * @param value
+	 * @param radix
+	 * @return
+	 */
 	public static int getDigit(int position, int value, int radix) {
 		return value / (int) Math.pow(radix, position) % radix;
 	}
