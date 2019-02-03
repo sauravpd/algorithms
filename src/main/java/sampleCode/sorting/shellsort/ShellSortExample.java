@@ -1,7 +1,7 @@
 package sampleCode.sorting.shellsort;
 
 /**
- * 
+ * Shell Sort Example
  * @author saurav
  *
  */
